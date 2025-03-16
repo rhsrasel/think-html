@@ -116,8 +116,53 @@ img {
     align-items: center;
 }
 
+.header-wrap {
+    background: #ffff99;
+    padding: 35px 48px;
+    border-radius: 8px;
+    margin-top: 18px;
+}
 
 /* main menu end */
+
+/* three column start */
+.three-column {
+    margin-top: 32px;
+}
+
+.three-column-content {
+    background: #e4e4e4;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 40px 30px;
+}
+
+.media {
+    margin-top: 30px;
+}
+
+.three-column-content .heading {}
+
+.three-column-content .text {}
+
+.three-column-content .button {}
+/* three column end */
+
+/* two column start */
+.two-column {
+    margin-top: 32px;
+}
+
+.two-column-media img {
+    width: 100%;
+}
+
+.two-column-media {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+/* two column end */
 
 
 
