@@ -88,6 +88,7 @@ img {
 
 .menu-list {
     list-style: none;
+    position: relative;
 }
 
 .menu-list a {
@@ -95,7 +96,8 @@ img {
     color: #282828;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700;    
+    transition: 0.3s;
 }
 
 .header-action {
@@ -103,7 +105,14 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 14px;    
+    transition: 0.3s;
+}
+
+.menu-list a:hover,
+.header-action:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 .header-actions {
@@ -140,12 +149,6 @@ img {
 .media {
     margin-top: 30px;
 }
-
-.three-column-content .heading {}
-
-.three-column-content .text {}
-
-.three-column-content .button {}
 /* three column end */
 
 /* two column start */
@@ -164,22 +167,84 @@ img {
 }
 /* two column end */
 
+/* dropdown menu start */
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 20px;
+    z-index: 1;
+    opacity: 0;
+    width: 100px;
+}
+
+.menu-list:hover .dropdown-menu {
+    opacity: 1;
+}
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-menu a {
+    font-size: 16px;
+    color: #ff0000;
+    display: block;
+    padding: 5px 0;
+}
+
+.dropdown-menu a:hover {
+    color: blue;
+}
+/* dropdown menu end */
+
+/* transform start 
+    e.g. display: flex | block | inline-block | inline-flex
+    e.g. transform: scale | rotate | translate | skew
+*/
+ /* scaleX(), scaleY() */
+.content-scale img {
+    transform: scale(1);
+    transition: 1s;
+}
+
+.content-scale img:hover {
+    transform: scale(0.5);
+}
+
+ /* rotateX(), rotateY() */
+.content-rotate img {
+    transform: rotate(0);
+    transition: 1s;
+}
+
+.content-rotate img:hover {
+    transform: rotate(30deg);
+}
+
+ /* translateX(), translateY() */
+.content-translate img {
+    transform: translate(0);
+    transition: 1s;
+}
+
+.content-translate img:hover {
+    transform: translate(100px);
+}
+
+ /* skewX(), skewY() */
+.content-skew img {
+    transform: skew(0);
+    transition: 1s;
+}
+
+.content-skew img:hover {
+    transform: skew(-60deg);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* transform end */
 
