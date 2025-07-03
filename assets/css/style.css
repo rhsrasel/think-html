@@ -1,48 +1,65 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100svh;
-    background: #fff;
+img {
+    max-width: 100%;
+}
+
+.button {
+    padding: 13px 35px;
+    border-style: none;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
     color: #000;
-}
-
-.title {
-    font-size: 60px;
-    color: red;
+    background: #eff1e5;
     font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline;
-    background-color: pink;
+    transition: 0.3s;
+    min-height: 44px;
 }
 
-.title2 {
-    color: tomato;
-    font-size: 50px;
-    background: blue;
-    text-align: right;
-}
-
-.parent {
-    background: tomato;
-    width: 100%;
-    height: 300px;
-    position: relative;
-}
-
-.child {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.child-4 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #000;
+.button:hover {
+    background-color: #7f8567;
     color: #fff;
-    padding: 20px 50px;
 }
+
+.action-cart {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.cart-bubble {
+    display: inline-flex;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.search-input,
+.search-input:focus-visible {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.logo {
+    text-decoration: none;
+    display: inline-block;
+}
+
