@@ -3,34 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Think HTML</title>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
     <body>
-        <div class="container">
-            <h1>positon: relative | absolute | fixed | static</h1>
-            <hr>
-            <h2>1. positon: relative | absolute</h2>
-            <div class="parent">
-                <div class="child">
-                    <h2>Hello, I'm Child</h2>
-                </div>
-            </div>
-            <hr>
-            <h2>2. positon: fixed</h2>
-            <div class="parent-2">
-                <div class="child-2">
-                    <h2>Hello, I'm Child 2</h2>
-                    <div class="child-3">
-                        <h2>Hello, I'm Child 3</h2>
-                        <div class="child-4">
-                            <h2>Hello, I'm Child 4</h2>
+        <div class="announcement-bar"></div>
+
+        <header>
+            <div class="container">
+                <div class="header-top">
+                    <div class="row">
+                        
+                        <div class="col-4">
+                            <form class="search-form" action="#">
+                                <img src="assets/img/icons/search.svg" alt="">
+                                <input name="search" class="search-input" type="text" placeholder="Search here">
+                            </form>
                         </div>
+
+                        <div class="col-4">
+                            <a class="logo" href="index.html">
+                                <img src="assets/img/logo.svg" alt="Logo">
+                            </a>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="header-actions">
+                                <a href="#" class="button">Buy Now</a>
+                                <a href="#" class="action-cart">
+                                    <img src="assets/img/icons/cart.svg" alt="Cart">
+                                    <span class="cart-bubble">0</span>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
+
+                <div class="header-bottom"></div>
             </div>
-        </div>
+        </header>
+
+
+        <main></main>
+        <footer></footer>
     </body>
 </html>
