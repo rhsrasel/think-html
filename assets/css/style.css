@@ -20,6 +20,12 @@ img {
     color: #fff;
 }
 
+.header-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0 , 0, 0.1);
+}
+
 .action-cart {
     text-decoration: none;
     display: flex;
@@ -58,8 +64,41 @@ img {
     width: 100%;
 }
 
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     text-decoration: none;
-    display: inline-block;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu > li {
+    padding: 20px 14px;
+}
+
+.main-menu > li > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #343434;
+    line-height: 1.2;
+    letter-spacing: normal;
+    font-weight: 700;
+    display: block;
+}
+
+.main-menu > li:hover > a {
+   opacity: 0.5;
 }
 
