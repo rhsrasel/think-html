@@ -20,85 +20,93 @@ img {
     color: #fff;
 }
 
-.header-top {
+.announcement-bar {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0, 0 , 0, 0.1);
+    background-color: #eff1e5;
 }
 
-.action-cart {
-    text-decoration: none;
+.announce-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #343434;
+    letter-spacing: normal;
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.announce-link {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #343434;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.announce-link:hover {
+    color: #343434;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-bar svg {
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar input {
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-actions {
     display: flex;
-    gap: 20px;
+    align-items: center;
     justify-content: flex-end;
+    gap: 20px;
 }
 
-.cart-bubble {
-    display: inline-flex;
-    background: #000;
-    border-radius: 50%;
-    color: #fff;
-    width: 20px;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-}
-
-.search-form {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    width: 100%;
-}
-
-.search-input,
-.search-input:focus-visible {
-    border: none;
-    outline: none;
-    width: 100%;
-}
-
-.logo-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    text-decoration: none;
-}
-
-.menu-navigation {
-    display: flex;
-    justify-content: center;
-}
-
-.main-menu {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.main-menu > li {
-    padding: 20px 14px;
-}
-
-.main-menu > li > a {
-    text-decoration: none;
+.header-button {
     font-size: 14px;
-    color: #343434;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: normal;
     font-weight: 700;
-    display: block;
+    color: #343434;
+    background-color: #eff1e5;
+    padding: 12px 35px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    transition: all 0.3s;
 }
 
-.main-menu > li:hover > a {
-   opacity: 0.5;
+.header-button:hover {
+    color: #fff;
+    background-color: #7f8567;
+}
+
+.header-cart svg {
+    width: 24px;
+    height: 24px;
+    color: #343434;
 }
 

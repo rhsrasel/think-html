@@ -1,75 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Think HTML</title>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Think HTML</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-    <body>
-        <div class="announcement-bar"></div>
+  <body>
+    <div class="announcement-bar">
+      <div class="container">
+        <p class="announce-text">
+            <span>Welcome to Verse - An E-Commerce template for brand curators.</span>          
+            <a href="#" class="announce-link">View all templates here</a>
+        </p>
+      </div>
+    </div>
 
-        <header>
-            <div class="container">
-                <div class="header-top">
-                    <div class="row">
-                        
-                        <div class="col-4">
-                            <form class="search-form" action="#">
-                                <img src="assets/img/icons/search.svg" alt="">
-                                <input name="search" class="search-input" type="text" placeholder="Search here">
-                            </form>
-                        </div>
+    <header>
+      <div class="container">
+        <div class="header-top">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="search-bar-wrapper">
+                        <form action="#" class="search-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><circle cx="112" cy="112" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="168.57" y1="168.57" x2="224" y2="224" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
 
-                        <div class="col-4">
-                            <div class="logo-wrapper">
-                                <a class="logo" href="index.html">
-                                    <img src="assets/img/logo.svg" alt="Logo">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-4">
-                            <div class="header-actions">
-                                <a href="#" class="button">Buy Now</a>
-                                <a href="#" class="action-cart">
-                                    <img src="assets/img/icons/cart.svg" alt="Cart">
-                                    <span class="cart-bubble">0</span>
-                                </a>
-                            </div>
-                        </div>
-
+                            <input type="search" placeholder="Search here">
+                        </form>
                     </div>
                 </div>
-
-                <div class="header-bottom">
-                    <nav class="menu-navigation">
-                        <ul class="main-menu">
-                            <li class="menu-item">
-                                <a href="#">All</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Decor</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Dining</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Bedroom</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Living Room</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="col-md-4">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo.svg" alt="Logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="header-actions">
+                        <a href="#" class="header-button">Buy Now</a>
+                        <a href="#" class="header-cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M209.67,72H46.33a8.06,8.06,0,0,0-8,7.07l-14.25,120a8,8,0,0,0,8,8.93H223.92a8,8,0,0,0,8-8.93l-14.25-120A8.06,8.06,0,0,0,209.67,72Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M88,104V64a40,40,0,0,1,80,0v40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </header>
-
-
-        <main></main>
-        <footer></footer>
-    </body>
+        </div>
+        <div class="header-bottom">
+          <nav class="menu-navigation"></nav>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
