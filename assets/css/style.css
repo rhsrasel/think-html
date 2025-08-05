@@ -198,3 +198,16 @@ img {
 .submenu-list > li:not(:first-child) {
     padding-top: 14px;
 }
+
+.hero-banner {
+    background-color: #7F8567;
+    height: 600px;
+}
+
+.hero-media img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 100px;
+}
+
